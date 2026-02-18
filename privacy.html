@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — ZoneFiveZen</title>
+<meta name="description" content="Privacy policy for apps published by ZoneFiveZen.">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0b0e11; --bg-card: #151a21; --green: #4ade80; --green-dim: rgba(74,222,128,0.08);
+    --green-border: rgba(74,222,128,0.12); --text: #e8ecf0; --text-secondary: #8899a6;
+    --text-dim: #4a5568; --border: rgba(255,255,255,0.06);
+    --font-mono: 'IBM Plex Mono', monospace; --font-body: 'Outfit', system-ui, sans-serif;
+  }
+  html { scroll-behavior: smooth; }
+  body { background: var(--bg); color: var(--text); font-family: var(--font-body); line-height: 1.6; }
+  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 16px 40px; display: flex; justify-content: space-between; align-items: center; background: rgba(11,14,17,0.88); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); }
+  .nav-logo { font-family: var(--font-mono); font-size: 15px; font-weight: 500; color: var(--green); text-decoration: none; }
+  .nav-logo .dim { color: var(--text-dim); }
+  .nav-links { display: flex; gap: 28px; }
+  .nav-links a { font-family: var(--font-mono); font-size: 13px; color: var(--text-secondary); text-decoration: none; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--green); }
+  .container { max-width: 700px; margin: 0 auto; padding: 0 40px; }
+  .page-header { padding: 140px 0 60px; }
+  .page-header .label { font-family: var(--font-mono); font-size: 12px; color: var(--green); text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+  .page-header .label::before { content: '>'; color: var(--text-dim); }
+  .page-header h1 { font-size: 36px; font-weight: 700; letter-spacing: -1px; margin-bottom: 8px; }
+  .page-header .updated { font-family: var(--font-mono); font-size: 12px; color: var(--text-dim); }
+  .content { padding-bottom: 100px; }
+  .content p { font-size: 15px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 16px; }
+  .content h2 { font-size: 20px; font-weight: 600; margin-top: 40px; margin-bottom: 14px; letter-spacing: -0.3px; }
+  .content strong { color: var(--text); font-weight: 500; }
+  .content a { color: var(--green); text-decoration: none; }
+  .content a:hover { text-decoration: underline; }
+  .divider { height: 1px; background: linear-gradient(90deg, transparent, var(--border), transparent); max-width: 700px; margin: 0 auto; }
+  footer { padding: 60px 0 40px; }
+  .footer-inner { display: flex; justify-content: space-between; align-items: flex-end; }
+  .footer-name { font-family: var(--font-mono); font-size: 14px; color: var(--text-secondary); margin-bottom: 6px; }
+  .footer-copy { font-size: 13px; color: var(--text-dim); }
+  .footer-links { display: flex; gap: 20px; }
+  .footer-links a { font-family: var(--font-mono); font-size: 13px; color: var(--text-dim); text-decoration: none; transition: color 0.2s; }
+  .footer-links a:hover { color: var(--green); }
+  @media (max-width: 768px) { nav { padding: 14px 20px; } .container { padding: 0 20px; } .footer-inner { flex-direction: column; align-items: flex-start; gap: 20px; } }
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">home <span class="dim">~/</span></a>
+  <div class="nav-links"><a href="/">home</a><a href="/privacy.html">privacy</a><a href="/support.html">support</a></div>
+</nav>
+<div class="container">
+  <div class="page-header">
+    <div class="label">Legal</div>
+    <h1>Privacy Policy</h1>
+    <div class="updated">Last updated: February 2026</div>
+  </div>
+  <div class="content">
+    <p>This privacy policy covers apps published under the developer name ZoneFiveZen ("I," "me," "my"). I take your privacy seriously — partly because it's the right thing to do, and partly because I genuinely do not want your data. I have enough of my own problems.</p>
+    <h2>What data do my apps collect?</h2>
+    <p><strong>MorningLock:</strong> All journal entries, voice recordings, transcriptions, app selection data, and usage statistics are stored entirely on your device. Nothing is transmitted to any server. There is no cloud sync, no analytics on your journal content, and no account system. I could not read your journal even if I wanted to — which I don't, because boundaries are important.</p>
+    <p><strong>General:</strong> My apps do not collect personally identifiable information, do not use third-party analytics SDKs, and do not serve advertising. If any future app changes this policy, this page will be updated before release.</p>
+    <h2>Third-party services</h2>
+    <p>Apps distributed through the App Store are subject to Apple's own privacy practices and data collection. In-app purchases are processed by Apple. I do not receive your payment information.</p>
+    <h2>Apple Screen Time API (FamilyControls)</h2>
+    <p>MorningLock uses Apple's FamilyControls and ManagedSettings frameworks. These APIs are sandboxed by Apple — the app can apply and remove shields on apps you select, but it cannot see which specific apps you use, access your browsing history, or transmit any Screen Time data off your device.</p>
+    <h2>Children's privacy</h2>
+    <p>My apps are not directed at children under 13. I do not knowingly collect data from children.</p>
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, I'll update the "last updated" date above. For significant changes, I'll note them in the relevant app's update notes.</p>
+    <h2>Contact</h2>
+    <p>Questions about privacy? Reach me at <a class="email-link" data-user="privacy" data-domain="zonefivezen.dev"></a></p>
+  </div>
+  <div class="divider"></div>
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-left"><div class="footer-name">Rich · ZoneFiveZen</div><div class="footer-copy">© 2026</div></div>
+      <div class="footer-links"><a href="/">home</a><a href="/support.html">support</a><a class="email-link" data-user="hello" data-domain="zonefivezen.dev">email</a></div>
+    </div>
+  </footer>
+</div>
+<script>document.querySelectorAll('.email-link').forEach(function(el){var e=el.dataset.user+'@'+el.dataset.domain;if(!el.textContent)el.textContent=e;el.href='mailto:'+e;});</script>
+</body>
+</html>

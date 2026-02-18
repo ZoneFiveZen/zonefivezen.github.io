@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — ZoneFiveZen</title>
+<meta name="description" content="Support and contact information for apps published by ZoneFiveZen.">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0b0e11; --bg-card: #151a21; --green: #4ade80; --green-dim: rgba(74,222,128,0.08);
+    --green-border: rgba(74,222,128,0.12); --text: #e8ecf0; --text-secondary: #8899a6;
+    --text-dim: #4a5568; --border: rgba(255,255,255,0.06);
+    --font-mono: 'IBM Plex Mono', monospace; --font-body: 'Outfit', system-ui, sans-serif;
+  }
+  html { scroll-behavior: smooth; }
+  body { background: var(--bg); color: var(--text); font-family: var(--font-body); line-height: 1.6; }
+  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 16px 40px; display: flex; justify-content: space-between; align-items: center; background: rgba(11,14,17,0.88); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); }
+  .nav-logo { font-family: var(--font-mono); font-size: 15px; font-weight: 500; color: var(--green); text-decoration: none; }
+  .nav-logo .dim { color: var(--text-dim); }
+  .nav-links { display: flex; gap: 28px; }
+  .nav-links a { font-family: var(--font-mono); font-size: 13px; color: var(--text-secondary); text-decoration: none; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--green); }
+  .container { max-width: 700px; margin: 0 auto; padding: 0 40px; }
+  .page-header { padding: 140px 0 60px; }
+  .page-header .label { font-family: var(--font-mono); font-size: 12px; color: var(--green); text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+  .page-header .label::before { content: '>'; color: var(--text-dim); }
+  .page-header h1 { font-size: 36px; font-weight: 700; letter-spacing: -1px; margin-bottom: 8px; }
+  .page-header .subtitle { font-size: 14px; color: var(--text-dim); }
+  .content { padding-bottom: 100px; }
+  .content p { font-size: 15px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 16px; }
+  .content h2 { font-size: 20px; font-weight: 600; margin-top: 40px; margin-bottom: 14px; letter-spacing: -0.3px; }
+  .content strong { color: var(--text); font-weight: 500; }
+  .content a { color: var(--green); text-decoration: none; }
+  .content a:hover { text-decoration: underline; }
+  .contact-card { padding: 24px 28px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 14px; margin: 24px 0; }
+  .contact-card .label { font-family: var(--font-mono); font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 8px; }
+  .contact-card .email { font-family: var(--font-mono); font-size: 16px; color: var(--green); }
+  .contact-card .note { font-size: 13px; color: var(--text-dim); margin-top: 8px; }
+  .divider { height: 1px; background: linear-gradient(90deg, transparent, var(--border), transparent); max-width: 700px; margin: 0 auto; }
+  footer { padding: 60px 0 40px; }
+  .footer-inner { display: flex; justify-content: space-between; align-items: flex-end; }
+  .footer-name { font-family: var(--font-mono); font-size: 14px; color: var(--text-secondary); margin-bottom: 6px; }
+  .footer-copy { font-size: 13px; color: var(--text-dim); }
+  .footer-links { display: flex; gap: 20px; }
+  .footer-links a { font-family: var(--font-mono); font-size: 13px; color: var(--text-dim); text-decoration: none; transition: color 0.2s; }
+  .footer-links a:hover { color: var(--green); }
+  @media (max-width: 768px) { nav { padding: 14px 20px; } .container { padding: 0 20px; } .footer-inner { flex-direction: column; align-items: flex-start; gap: 20px; } }
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">home <span class="dim">~/</span></a>
+  <div class="nav-links"><a href="/">home</a><a href="/privacy.html">privacy</a><a href="/support.html">support</a></div>
+</nav>
+<div class="container">
+  <div class="page-header">
+    <div class="label">Help</div>
+    <h1>Support</h1>
+    <div class="subtitle">For all apps published by ZoneFiveZen</div>
+  </div>
+  <div class="content">
+    <p>If something's broken, confusing, or just mildly annoying — I want to know. I'm a solo developer, which means there's no support ticket queue. There's just me, reading my email, probably while drinking coffee.</p>
+    <div class="contact-card">
+      <div class="label">Email</div>
+      <a class="email email-link" data-user="support" data-domain="zonefivezen.dev"></a>
+      <div class="note">I'll do my best to respond within 48 hours.</div>
+    </div>
+    <p>Please include which app you're using, what device you're on, and what happened. Screenshots help enormously. A description of what you expected to happen versus what actually happened is the kind of thing that makes me tear up with gratitude.</p>
+    <h2>Known issues</h2>
+    <p>I'll maintain a list of known issues for each app here once they're live. For now, the most known issue is that the apps aren't finished yet. Working on it.</p>
+    <h2>Feature requests</h2>
+    <p>I genuinely read every suggestion. I can't promise I'll build everything, but I can promise it goes into the pile. The pile is surprisingly well-organized. It has categories and everything.</p>
+    <h2>App-specific support</h2>
+    <p><strong>MorningLock:</strong> If your apps aren't unlocking after completing a journal entry, make sure you've met both the time minimum and the 60-word minimum. Voice transcription words count toward the total. If the issue persists, email me with your iOS version and a screenshot of the completion screen.</p>
+    <p><strong>Stepcats:</strong> Not yet available. Your future cats are safe.</p>
+  </div>
+  <div class="divider"></div>
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-left"><div class="footer-name">Rich · ZoneFiveZen</div><div class="footer-copy">© 2026</div></div>
+      <div class="footer-links"><a href="/">home</a><a href="/privacy.html">privacy</a><a class="email-link" data-user="hello" data-domain="zonefivezen.dev">email</a></div>
+    </div>
+  </footer>
+</div>
+<script>document.querySelectorAll('.email-link').forEach(function(el){var e=el.dataset.user+'@'+el.dataset.domain;if(!el.textContent)el.textContent=e;el.href='mailto:'+e;});</script>
+</body>
+</html>
